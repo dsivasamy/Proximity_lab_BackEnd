@@ -38,3 +38,9 @@ As a logged in student, I can subscribe, unsubsribe to various Courses.
 - Implementing  CI/CD pipeline using Jenkins and depoly in AWS cloud(ECS)
 - Implementing metrics for application
 - For testing puprose I used H2 embedded database but in enterprise level we need to go for MongoDB/Dynamo DB/ Postgres /ElasticSearch based on requirements. 
+
+# How to add the Data for application:
+- Use the Payload.json.
+- use the below endpoints and pass the payload 
+- http://localhost:8080//instructors
+
