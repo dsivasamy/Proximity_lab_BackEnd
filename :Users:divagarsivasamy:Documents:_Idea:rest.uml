@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>/Users/divagarsivasamy/Documents/_Idea/rest</OriginalElement>
+  <nodes>
+    <node x="609.0" y="776.0">com.proximitylab.app.service.InstructorService</node>
+    <node x="0.0" y="0.0">com.proximitylab.app.model.ErrorMessage</node>
+    <node x="843.0" y="1288.0">com.proximitylab.app.controller.VideoController</node>
+    <node x="0.0" y="1624.0">com.proximitylab.app.service.SubjectService</node>
+    <node x="0.0" y="432.0">com.proximitylab.app.entity.Subject</node>
+    <node x="315.0" y="1288.0">com.proximitylab.app.service.VideoService</node>
+    <node x="1218.0" y="1054.0">com.proximitylab.app.enums.VideoCategory</node>
+    <node x="457.0" y="432.0">com.proximitylab.app.entity.Lesson</node>
+    <node x="0.0" y="1457.0">com.proximitylab.app.exception.GlobalExceptionHandler</node>
+    <node x="1555.0" y="0.0">com.proximitylab.app.entity.Video</node>
+    <node x="325.0" y="1624.0">com.proximitylab.app.RestApplication</node>
+    <node x="256.0" y="776.0">com.proximitylab.app.controller.InstructorController</node>
+    <node x="0.0" y="776.0">com.proximitylab.app.entity.Tags</node>
+    <node x="1395.0" y="776.0">MavenWrapperDownloader</node>
+    <node x="537.0" y="1770.0">com.proximitylab.app.repository.VideoRepository</node>
+    <node x="1370.0" y="1457.0">com.proximitylab.app.controller.LessonController</node>
+    <node x="425.0" y="1054.0">com.proximitylab.app.service.StudentService</node>
+    <node x="1005.0" y="1624.0">com.proximitylab.app.exception.CustomApiException</node>
+    <node x="348.0" y="1892.0">com.proximitylab.app.repository.StudentRepository</node>
+    <node x="1118.0" y="1770.0">com.proximitylab.app.repository.LessonRepository</node>
+    <node x="934.0" y="1457.0">com.proximitylab.app.service.LessonService</node>
+    <node x="962.0" y="776.0">com.proximitylab.app.controller.CourseController</node>
+    <node x="0.0" y="1054.0">com.proximitylab.app.service.CourseService</node>
+    <node x="1279.0" y="1624.0">com.proximitylab.app.RestApplicationTests</node>
+    <node x="378.0" y="0.0">com.proximitylab.app.entity.Course</node>
+    <node x="1128.0" y="432.0">com.proximitylab.app.model.ApiSubError</node>
+    <node x="0.0" y="1770.0">com.proximitylab.app.repository.CourseRepository</node>
+    <node x="546.0" y="1624.0">com.proximitylab.app.configuration.ServerConfig</node>
+    <node x="1506.0" y="1054.0">com.proximitylab.app.enums.Gender</node>
+    <node x="591.0" y="1892.0">com.proximitylab.app.repository.SubjectRepository</node>
+    <node x="861.0" y="1054.0">com.proximitylab.app.controller.StudentController</node>
+    <node x="964.0" y="0.0">com.proximitylab.app.entity.Instructor</node>
+    <node x="871.0" y="432.0">com.proximitylab.app.entity.Student</node>
+    <node x="1485.0" y="432.0">com.proximitylab.app.model.ApiResponse</node>
+    <node x="0.0" y="1288.0">com.proximitylab.app.helper.LoggingHelper</node>
+    <node x="0.0" y="1892.0">com.proximitylab.app.repository.InstructorRepository</node>
+  </nodes>
+  <notes />
+  <edges />
+  <settings layout="Hierarchic" zoom="0.3436705643111337" showDependencies="false" x="883.0" y="973.5000000000001" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
