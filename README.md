@@ -37,4 +37,4 @@ As a logged in student, I can subscribe, unsubsribe to various Courses.
 - Containerization Application.
 - Implementing  CI/CD pipeline using Jenkins and depoly in AWS cloud(ECS)
 - Implementing metrics for application
-- For testing puprose I used H2 embedded database but in enterprise level we need to go for MongoDB/Dynamo DB/ Postgres  
+- For testing puprose I used H2 embedded database but in enterprise level we need to go for MongoDB/Dynamo DB/ Postgres /ElasticSearch based on requirements. 
