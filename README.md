@@ -36,7 +36,7 @@ Technologies used ,
 
 # Things to Improve in future.
 - Containerization Application.
-- Implementing  CI/CD pipeline using Jenkins and depoly in AWS cloud(ECS)
+- Implementing  CI/CD pipeline using Jenkins and depoly in AWS cloud(ECS) and review the code using sonar or any open source code review tools
 - Implementing metrics for application
 - For testing puprose I used H2 embedded database but in enterprise level we need to go for MongoDB/Dynamo DB/ Postgres /ElasticSearch based on requirements. 
 
