@@ -35,6 +35,7 @@ Technologies used ,
 - H2 database http://localhost:8080/h2-console
 
 # Things to Improve in future.
+- Implemeting API Gateway for security.
 - Containerization Application.
 - Implementing  CI/CD pipeline using Jenkins and depoly in AWS cloud(ECS) and review the code using sonar or any open source code review tools
 - Implementing metrics for application
