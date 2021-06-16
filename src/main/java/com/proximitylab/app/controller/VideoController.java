@@ -23,8 +23,8 @@ public class VideoController {
 
 
     @GetMapping(value = "/video/filter", produces = MediaType.APPLICATION_JSON_VALUE)
-    public ApiResponse<Object> getAll(@Valid @RequestParam("videoTag") String videoTag, @RequestParam("tagName") String tagName, Pageable pageable) {
-        return videoService.filterVideoTagandTitle(videoTag,tagName,pageable);
+    public ApiResponse<Object> getAll(@Valid @RequestParam("videoTag") String videoTitle, @RequestParam("tagName") String tagName, Pageable pageable) {
+        return videoService.filterVideoTagandTitle(videoTitle,tagName,pageable);
     }
     @GetMapping(value = "/activeVideos/all", produces = MediaType.APPLICATION_JSON_VALUE)
     public ApiResponse<Object> getAll(Pageable pageable) {

@@ -1,6 +1,8 @@
 package com.proximitylab.app.controller;
 
+import com.proximitylab.app.entity.Course;
 import com.proximitylab.app.entity.Instructor;
+import com.proximitylab.app.entity.Video;
 import com.proximitylab.app.service.InstructorService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
@@ -22,7 +24,7 @@ public class InstructorController {
     }
 
     @PostMapping
-    public HttpStatus insertInstructor(@Valid @RequestBody Instructor instructor,@Valid @RequestParam Boolean Is_instructor) {
+    public HttpStatus insertInstructor(@Valid @RequestBody Instructor instructor, @Valid @RequestParam Boolean Is_instructor) {
         HttpStatus httpStatus;
         if (Is_instructor) {
             httpStatus = instructorService.addUser(instructor) ? HttpStatus.CREATED : HttpStatus.BAD_REQUEST;
@@ -66,5 +68,14 @@ public class InstructorController {
             httpStatus = HttpStatus.UNAUTHORIZED;
         }
         return httpStatus;
+    }
+
+    @GetMapping(value = "/mostViwedVideos")
+    public List<Video> getMaxvideosCourses() {
+        return instructorService.getMaxViewedVideos();
+    }
+    @GetMapping(value = "/mostViwedCourses")
+    public List<Course> getMaxviewsCourses() {
+        return instructorService.getMaxViewedCourses();
     }
 }

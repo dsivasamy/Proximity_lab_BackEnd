@@ -27,7 +27,7 @@ public class Lesson {
     @Column(name = "ins_id")
     private Long insId;
     @Column(name = "lesson_name")
-    private int lessonname;
+    private String lessonname;
     @Column(name = "video_id")
     private Long videoId;
     @OneToMany(fetch = FetchType.LAZY,
