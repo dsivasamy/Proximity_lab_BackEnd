@@ -14,6 +14,7 @@ Technologies used ,
 ## Features
 - Developing API Endpoints based on the user stories implemented using Pagination, Sorting and Filtering.
 - Developing API Endpoints Use Pageable With JpaRepository.
+- Developing API Endpoints for Curd Operation
 ## User Stories
 - As logged in instructor, I can create, view, edit, delete Tags.
 - As logged in instructor, I can create, view, edit, delete Subjects.
