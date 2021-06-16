@@ -42,6 +42,6 @@ Technologies used ,
 
 # How to add the Data for application:
 - Use the Payload.json.
-- use the below endpoints and pass the payload 
+- use the below endpoints and pass the payload using Swagger
 - http://localhost:8080//instructors
 
